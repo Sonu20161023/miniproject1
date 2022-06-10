@@ -1,0 +1,105 @@
+html body{
+    height:100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.left img{
+    width:40px;
+    height:30px;
+    padding-top: 12px;
+}
+.flex {
+    display: flex;
+}
+.flex1 li{
+    text-decoration: none;
+}
+
+nav ul li{
+    display:flex;
+    list-style: none;
+    padding:0 8px;
+    text-decoration:none;
+
+}
+nav ul li:hover{
+    color: fuchsia;
+    text-decoration: underline;
+}
+.right{
+    display:flex;
+    padding: 0 12px;
+
+}
+.text1 {
+    padding-top:25px;
+    padding-left:30px ;
+    height:5px;
+    width:250px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    background:rgb(240, 241, 243) ;
+    border-radius: 5px;
+}
+
+
+.profile{
+    /* padding-left: 2px; */
+    padding: 0 15px;
+}
+header{
+    border:2px solid white ;
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    color:rgb(58, 54, 55) ;
+    text-decoration: underline;
+}
+h1:hover{
+    color: palevioletred;
+    text-decoration:none ;
+}
+h3{
+    font-weight: lighter;
+    background-color: rgb(235, 231, 227);
+}
+header{
+    position: sticky;
+    top:0;
+    background-color: rgb(227, 234, 246);
+
+}
+section .img2{
+
+}
+#btn{
+    color: white;
+    background-color: red;
+    border-radius: 5px solid red;
+}
+#logo{
+    height:25%;
+    width:35%;
+}
+.img{
+    display: flex;
+    height:200px ;
+    background-repeat:no-repeat ;
+}
+.img2{
+    display: flex;
+    height: 200px;
+    background-repeat:no-repeat ;
+}
+.title4{
+    display: flex;
+    height: 200px;
+    background-repeat:no-repeat ;
+
+}
